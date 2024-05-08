@@ -55,3 +55,44 @@ body {
   transform: rotateY(180deg);
 }
 
+/* CSS for Responsive Design */
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+  /* Adjustments for smaller screens */
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* For tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Adjustments for medium-sized screens */
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+
+/* For larger screens (desktops, laptops) */
+@media only screen and (min-width: 1025px) {
+  /* Adjustments for large screens */
+  body {
+    font-size: 18px;
+  }
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+}
