@@ -1,5 +1,4 @@
-[
-    {
+{
         "expenseId": 1,
         "lotId": 1,
         "period": "01/25",
@@ -8,14 +7,12 @@
             {
                 "fineId": 1,
                 "amount": 2000
+            },
+            {
+                "fineId": 2,
+                "amount": 2000
             }
-        ]
-    },
-    {
-        "expenseId": 2,
-        "lotId": 2,
-        "period": "01/25",
-        "totalAmount": 10000,
+        ],
         "individualCharges": [
             {
                 "description": "Limpieza frente casa",
@@ -24,63 +21,24 @@
         ]
     },
     {
-        "expenseId": 3,
-        "lotId": 3,
-        "period": "02/25",
-        "totalAmount": 8000,
+        "expenseId": 2,
+        "lotId": 2,
+        "period": "01/25",
+        "totalAmount": 10000,
         "fines": [
             {
-                "fineId": 5,
-                "amount": 1000
-            }
-        ]
-    },
-    {
-        "expenseId": 4,
-        "lotId": 4,
-        "period": "02/25",
-        "totalAmount": 6000
-    },
-    {
-        "expenseId": 5,
-        "lotId": 5,
-        "period": "03/25",
-        "totalAmount": 12000
-    },
-    {
-        "expenseId": 6,
-        "lotId": 6,
-        "period": "03/25",
-        "totalAmount": 9500
-    },
-    {
-        "expenseId": 7,
-        "lotId": 7,
-        "period": "04/25",
-        "totalAmount": 7000,
-        "fines": [
+                "fineId": 3,
+                "amount": 2000
+            },
             {
-                "fineId": 7,
-                "amount": 1500
+                "fineId": 4,
+                "amount": 2000
+            }
+        ],
+        "individualCharges": [
+            {
+                "description": "Limpieza frente casa",
+                "amount": 5000
             }
         ]
-    },
-    {
-        "expenseId": 8,
-        "lotId": 8,
-        "period": "04/25",
-        "totalAmount": 7500
-    },
-    {
-        "expenseId": 9,
-        "lotId": 9,
-        "period": "05/25",
-        "totalAmount": 11000
-    },
-    {
-        "expenseId": 10,
-        "lotId": 10,
-        "period": "05/25",
-        "totalAmount": 6500
     }
-]
